@@ -1,4 +1,5 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
+![](https://wakatime.com/badge/user/be79098d-c59e-407c-8952-0f274bb9e265/project/d764baca-af4a-42a3-be94-23d853ebc342.svg)
 
 # React To Do App
 
