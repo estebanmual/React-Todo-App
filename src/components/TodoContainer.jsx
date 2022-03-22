@@ -83,6 +83,7 @@ class TodoContainer extends Component {
   render() {
     const { todos } = this.state;
     return (
+
       <div className="container">
         <div className="inner">
           <Header />
@@ -95,6 +96,7 @@ class TodoContainer extends Component {
           />
         </div>
       </div>
+
     );
   }
 }

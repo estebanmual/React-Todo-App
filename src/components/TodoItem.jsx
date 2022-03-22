@@ -55,9 +55,7 @@ class TodoItem extends React.PureComponent {
             {todo.title}
           </span>
           <button type="button" onClick={() => deleteTodoProps(todo.id)}>
-            <button type="button" onClick={() => deleteTodoProps(todo.id)}>
-              <FaTrash style={{ color: 'orangered', fontSize: '16px' }} />
-            </button>
+            <FaTrash style={{ color: 'orangered', fontSize: '16px' }} />
           </button>
         </div>
         <input
