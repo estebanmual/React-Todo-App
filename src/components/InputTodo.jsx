@@ -1,5 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import { FaPlusCircle } from 'react-icons/fa';
 
 class InputTodo extends React.PureComponent {
   constructor(props) {
@@ -25,7 +26,7 @@ class InputTodo extends React.PureComponent {
         title: '',
       });
     } else {
-      alert('please write item');
+      alert('Please write an item');
     }
   };
 
@@ -41,7 +42,11 @@ class InputTodo extends React.PureComponent {
           name="title"
           onChange={this.onChange}
         />
-        <button type="submit" className="input-submit">Submit</button>
+        <button type="submit" className="input-submit">
+          <FaPlusCircle
+            style={{ color: 'darkcyan', fontSize: '20px', marginTop: '2px' }}
+          />
+        </button>
       </form>
     );
   }

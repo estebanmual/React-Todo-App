@@ -1,5 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import { FaTrash } from 'react-icons/fa';
 import styles from './TodoItem.module.css';
 
 class TodoItem extends React.PureComponent {
@@ -54,7 +55,9 @@ class TodoItem extends React.PureComponent {
             {todo.title}
           </span>
           <button type="button" onClick={() => deleteTodoProps(todo.id)}>
-            Delete
+            <button type="button" onClick={() => deleteTodoProps(todo.id)}>
+              <FaTrash style={{ color: 'orangered', fontSize: '16px' }} />
+            </button>
           </button>
         </div>
         <input
